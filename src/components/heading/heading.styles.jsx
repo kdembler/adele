@@ -43,8 +43,12 @@ const StyledLinksWrapper = styled.section`
   position: relative;
   margin-top: 40px;
 
-  > button:first-child {
-    margin-right: 40px;
+  > button {
+    margin-right: 10px;
+  }
+
+  > button:last-child {
+    margin-right: 20px;
   }
 `;
 
