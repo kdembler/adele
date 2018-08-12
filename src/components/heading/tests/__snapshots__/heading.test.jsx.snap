@@ -26,6 +26,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
   font-size: 16px;
   font-weight: 300;
   color: white;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all ease-in 0.1s;
@@ -61,6 +62,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
 }
 
 .c3:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
   -webkit-transition: all ease-in 0.2s;
   transition: all ease-in 0.2s;
@@ -162,6 +164,24 @@ exports[`renders Heading correctly when scroll is false 1`] = `
           </Button>
           <NavLink
             action={[Function]}
+            label="Check out stats"
+            tab={0}
+          >
+            <styled.button
+              onClick={[Function]}
+              tabIndex={0}
+            >
+              <button
+                className="c3"
+                onClick={[Function]}
+                tabIndex={0}
+              >
+                Check out stats
+              </button>
+            </styled.button>
+          </NavLink>
+          <NavLink
+            action={[Function]}
             label="Why Adele?"
             tab={1}
           >
@@ -211,6 +231,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
   font-size: 16px;
   font-weight: 300;
   color: white;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all ease-in 0.1s;
@@ -246,6 +267,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
 }
 
 .c3:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
   -webkit-transition: all ease-in 0.2s;
   transition: all ease-in 0.2s;
@@ -345,6 +367,24 @@ exports[`renders Heading correctly when scroll is true 1`] = `
               </button>
             </styled.button>
           </Button>
+          <NavLink
+            action={[Function]}
+            label="Check out stats"
+            tab={0}
+          >
+            <styled.button
+              onClick={[Function]}
+              tabIndex={0}
+            >
+              <button
+                className="c3"
+                onClick={[Function]}
+                tabIndex={0}
+              >
+                Check out stats
+              </button>
+            </styled.button>
+          </NavLink>
           <NavLink
             action={[Function]}
             label="Why Adele?"
