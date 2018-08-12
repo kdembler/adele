@@ -34,6 +34,7 @@ const Heading = (props) => {
           action={() => scrollTo(535)}
           tab={1}
         />
+        <NavLink action={() => scrollTo('stats')} label="Check out stats" />
         <NavLink action={() => scrollTo('adele-info')} label="Why Adele?" tab={1} />
       </StyledLinksWrapper>
     </StyledHeading>

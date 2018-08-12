@@ -14,6 +14,7 @@ const tokens = {
     "black": "#131313",
     "red": "#EF0A61"
   },
+  "chartColors": ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#34495e", "#f1c40f", "#e67e22", "#e74c3c", "#ecf0f1", "#95a5a6"],
   "sizes": {
     "xs": "7px",
     "s": "13px",
@@ -25,6 +26,7 @@ const tokens = {
   },
   "border": {
     "radius": "3px",
+    "radiusMid": "10px",
     "radiusMax": "25px",
   },
   "shadow": {
@@ -63,6 +65,8 @@ export const icon = {
     xs: tokens.sizes.xs,
     s: tokens.sizes.s,
     m: tokens.sizes.m,
+    l: tokens.sizes.l,
+    xl: tokens.sizes.xl,
   },
   colors: {
     colorActive: interactive.colorActive,
@@ -183,6 +187,24 @@ export const tableControls = {
   weight: typography.regular,
   color: tokens.colors.silver,
 }
+
+export const statistics = {
+  border: {
+    radiusModal: tokens.border.radiusMid,
+    radiusModalHeader: tokens.border.radius,
+    color: tokens.colors.silverLight10,
+  },
+  chartColors: tokens.chartColors,
+  typography: {
+    fontFamily: typography.fontFamily,
+    sizeHeader: typography.header2,
+    sizeModalHeader: typography.header3,
+    sizeTile: typography.mediumText,
+    weightHeader: typography.regular,
+    weightModalHeader: typography.regular,
+    weightTile: typography.regular,
+  },
+};
 
 export const adeleInfo = {
   typography: {

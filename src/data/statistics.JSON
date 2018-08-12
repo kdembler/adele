@@ -1,0 +1,114 @@
+[
+  {
+    "field": "repository",
+    "type": "bar"
+  },
+  {
+    "field": "codeDepth",
+    "type": "bar"
+  },
+  {
+    "field": "components",
+    "type": "pie"
+  },
+  {
+    "field": "js",
+    "type": "pie"
+  },
+  {
+    "field": "ts",
+    "type": "pie"
+  },
+  {
+    "field": "webComponents",
+    "type": "pie"
+  },
+  {
+    "field": "tests",
+    "type": "bar"
+  },
+  {
+    "field": "linter",
+    "type": "bar"
+  },
+  {
+    "field": "css",
+    "type": "bar"
+  },
+  {
+    "field": "cssInjs",
+    "type": "pie"
+  },
+  {
+    "field": "designTokens",
+    "type": "bar"
+  },
+  {
+    "field": "bundleManager",
+    "type": "bar"
+  },
+  {
+    "field": "uiKit",
+    "type": "bar"
+  },
+  {
+    "field": "brandGuidelines",
+    "type": "pie"
+  },
+  {
+    "field": "colorPalette",
+    "type": "pie"
+  },
+  {
+    "field": "colorNaming",
+    "type": "pie"
+  },
+  {
+    "field": "space/Grid",
+    "type": "pie"
+  },
+  {
+    "field": "icons",
+    "type": "pie"
+  },
+  {
+    "field": "illustrations",
+    "type": "pie"
+  },
+  {
+    "field": "dataVisualization",
+    "type": "pie"
+  },
+  {
+    "field": "animation",
+    "type": "pie"
+  },
+  {
+    "field": "voiceTone",
+    "type": "pie"
+  },
+  {
+    "field": "accessibilityGuidelines",
+    "type": "pie"
+  },
+  {
+    "field": "designPrinciples",
+    "type": "pie"
+  },
+  {
+    "field": "websiteDocumentation",
+    "type": "pie"
+  },
+  {
+    "field": "codeDocumentation",
+    "type": "pie"
+  },
+  {
+    "field": "storybook",
+    "type": "pie"
+  },
+  {
+    "field": "distribution",
+    "type": "bar"
+  }
+]

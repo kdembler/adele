@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TableContainer from '../tableContainer/table-container';
+import StatsContainer from '../statsContainer/stats-container';
 import HeaderContainer from '../headerContainer/header-container';
 import InfoContainer from '../infoContainer/info-container';
 import AdeleInfo from '../../components/adeleInfo/adele-info';
@@ -35,6 +36,7 @@ export default class App extends Component {
       <main>
         <HeaderContainer scroll={this.state.scroll} />
         <TableContainer scroll={this.state.scroll} scrollUpdate={this.updateScroll} />
+        <StatsContainer />
         <InfoContainer>
           <SectionHeader content="why adele?" id="adele-info" />
           <AdeleInfo />
